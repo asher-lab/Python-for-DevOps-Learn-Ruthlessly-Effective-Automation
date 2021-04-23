@@ -1,7 +1,7 @@
 # Function to determine the inputted strng as either Uppercase or LowerCase , isUpper = true if all char in the string are uppercase, false if neither of one re 
 
 def check(input):
-  if(isUpper(input)):
+  if(input.isUpper):
    print("String has all char cases in UpperCase")
   else:
     print("String lowercase")
