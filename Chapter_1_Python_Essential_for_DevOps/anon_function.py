@@ -9,6 +9,7 @@ print(sorted(items, key=second))
 
 
 # Display contens of items
+print("Contents of Items")
 print(items)
 #Using lambda keyword
 print(sorted(items, key=lambda item: item[1]))
