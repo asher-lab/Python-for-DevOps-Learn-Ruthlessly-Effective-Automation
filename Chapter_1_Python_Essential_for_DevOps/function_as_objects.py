@@ -13,8 +13,8 @@ def triple(input):
   input * 3
   
 #Set the function to double and triple for later iteration
-function = [double, triple]
+functions = [double, triple]
 
 #Call double and triple in a for loop
-for function in function:
+for function in functions:
   print(function(6))
