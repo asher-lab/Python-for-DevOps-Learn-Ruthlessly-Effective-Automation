@@ -6,8 +6,9 @@ print('Rostam' in cc_list)
 
 
 #import re module
+import re
 print(re.search(r'Rostam', cc_list))
 
 #if condition
 if (re.search(r'Rostam', cc_list)):
-  print("Found Rostam in cc_list) 
+  print("Found Rostam in cc_list") 
