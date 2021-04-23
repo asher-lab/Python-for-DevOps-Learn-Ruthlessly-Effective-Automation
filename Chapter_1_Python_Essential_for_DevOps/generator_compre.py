@@ -8,8 +8,8 @@ print(gen_o_nums)
 import sys
 
 #get the size of the variab;es
-sys.getsizeof(list_o_nums)
-sys.getsizeof(gen_o_nums)
+print(sys.getsizeof(list_o_nums))
+print(sys.getsizeof(gen_o_nums))
 
 #Iterating the value of the generator
 print()
