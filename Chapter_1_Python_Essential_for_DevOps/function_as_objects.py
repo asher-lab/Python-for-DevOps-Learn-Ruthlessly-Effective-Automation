@@ -1,6 +1,7 @@
 def double(input):
   '''double input'''
-  input * 2
+  print(input * 2)
+  
   
 #call the functio
 double
@@ -10,7 +11,7 @@ type(double)
 
 def triple(input):
   '''triple input'''
-  input * 3
+  print(input * 3)
   
 #Set the function to double and triple for later iteration
 functions = [double, triple]
