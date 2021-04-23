@@ -1,0 +1,7 @@
+# ipython
+>>%%writefile print_time.py
+... #!/usr/bin/env python3
+... import datetime
+... print(datetime.datetime.now().time())
+
+### Ipython will output "Writing print_time.py" and it will create "print_time.py" in current working directory.
