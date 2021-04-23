@@ -1,5 +1,5 @@
 file_path = "text.txt"
-open_file = open(filepath, 'r')
+open_file = open(file_path, 'r')
 text = open_file.read()
 print(len(text))
 
