@@ -6,3 +6,11 @@ def second(item):
   return item[1]
 
 print(sorted(items, key=second))
+
+
+# Display contens of items
+print(items)
+#Using lambda keyword
+print(sorted(items, key=lambda item: item[1]))
+print(sorted(items, key=lambda item: item[2]))
+print(sorted(items, key=lambda item: item[0]))
