@@ -4,5 +4,7 @@ YAML<br>
 JSON<br>
 CSV<br>
 XML<br>
-<br>
+Encryption and Decryption<br>
+OS Modules<br>
+Pathlib<br>
 On Pandas: accessing and manipulating data<br>
