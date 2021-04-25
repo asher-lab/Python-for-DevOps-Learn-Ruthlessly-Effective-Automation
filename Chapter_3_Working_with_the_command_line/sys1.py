@@ -1,3 +1,5 @@
+# do not run, this will not be interpreted. f format error, use manual method, or better use ipython
+
 import os
 
 print(f"Current Working Dir: {os.getcwd()}")
