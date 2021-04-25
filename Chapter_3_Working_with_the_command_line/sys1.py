@@ -15,3 +15,6 @@ print(f"Contents of the environ before changing: {os.environ.get('LOGLEVEL')}")
 os.environ['LOGLEVEL']='DEBUG'
 
 print(f"Content of environ after changing: {os.environ.get('LOGLEVEL')}")
+      
+# get data of current user
+os.getlogin()
