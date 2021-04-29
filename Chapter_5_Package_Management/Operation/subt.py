@@ -1,2 +1,2 @@
 def sum():
-  print(f"Subtraction: {90-10")
+  print(f"Subtraction: {90-10}")
