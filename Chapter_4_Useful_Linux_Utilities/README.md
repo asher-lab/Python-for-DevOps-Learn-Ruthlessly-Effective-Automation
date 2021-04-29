@@ -28,3 +28,12 @@ blkid - a utility that locates or displays block device attributes (NAME=value p
 hwinfo -  generally prints detailed information about system hardware.
 
 pydf - can be an alternative to df. Easy interface and more straightforward.
+
+# What can SSH Tunnel can do? Why is it useful?
+
+SSH - Using for sending information from private networks to public net (Internet) using encapsulation. Since tunneling does modify and repackage the content of the data to be transferred,  usually through the use of encryption, then it can mask the real information of the traffic as it run through the ssh tunnel. 
+
+# Tutorial: Accessing server via android
+
+https://monovm.com/blog/how-to-connect-to-linux-vps-server-via-android/
+
