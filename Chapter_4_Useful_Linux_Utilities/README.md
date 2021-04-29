@@ -37,3 +37,32 @@ SSH - Using for sending information from private networks to public net (Interne
 
 https://monovm.com/blog/how-to-connect-to-linux-vps-server-via-android/
 
+
+# Molotov ,load testing usage = molotov name.py
+<br> 
+- this is used to measure the performance of an API or a web application on how many request it can handle
+
+```"""
+
+This Molotov script has 2 scenario
+
+"""
+from molotov import scenario
+
+
+_API = "http://localhost:8080"
+
+
+@scenario(weight=40)
+async def scenario_one(session):
+    async with session.get(_API) as resp:
+        res = await resp.json()
+        assert res["result"] == "OK"
+        assert resp.status == 200
+
+
+@scenario(weight=60)
+async def scenario_two(session):
+    async with session.get(_API) as resp:
+        assert resp.status == 200
+        ```
