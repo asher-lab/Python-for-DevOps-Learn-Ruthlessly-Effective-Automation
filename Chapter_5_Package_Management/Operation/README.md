@@ -25,10 +25,18 @@ cd ..
 python3 main_1.py
 
 ```
-## Adding imports to init.py
+## Adding imports to __init__.py
 ```
 from .sum import sum
 from .div import div
 from .mult import mult
 from .subt import subt
 ```
+
+
+# Create main_2 with these contents (same directory as main and main_1):
+
+from .sum import sum
+from .div import div
+from .mult import mult
+from .subt import subt
