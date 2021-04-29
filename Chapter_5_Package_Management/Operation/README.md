@@ -1,13 +1,13 @@
 # Usage
 
 ```
-Importing modules can be done:<br>
-import sum<br>
-sum.sum()<br>
+Importing modules can be done:
+import sum
+sum.sum()
 
 <br>
-Importing module can also be done: <br>
-from sum import sum <br>
-sum() <br>
+Importing module can also be done: 
+from sum import sum 
+sum() 
 ```
 
