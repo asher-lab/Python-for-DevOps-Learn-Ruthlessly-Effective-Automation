@@ -44,5 +44,12 @@ https://test.pypi.org/simple/ hello-world
 
 Here to be exact:
 pip install -i https://test.pypi.org/simple/ pineng==0.0.1
+or navigate: https://test.pypi.org/project/pineng/0.0.1/
 
+to test:
+import func
+func.sum()
+func.div()
+func.mult()
+func.subt()
 ```
