@@ -42,4 +42,7 @@ Install :
 python3 -m pip install --index-url
 https://test.pypi.org/simple/ hello-world
 
+Here to be exact:
+pip install -i https://test.pypi.org/simple/ pineng==0.0.1
+
 ```
