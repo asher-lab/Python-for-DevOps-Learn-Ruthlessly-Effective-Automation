@@ -53,3 +53,9 @@ func.div()
 func.mult()
 func.subt()
 ```
+
+## Uninstalling a package
+
+```
+Look for the package: pip list
+uninstall a package: pip uninstall <package name> e.g pip uninstall pineng
