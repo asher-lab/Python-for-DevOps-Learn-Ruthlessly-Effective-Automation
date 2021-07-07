@@ -29,3 +29,40 @@ operating systems run the Docker daemon: Linux, Windows, and macOS.
 
 <h1>Creating, Building, Running, and Removing
 Docker Images and Containers</h1>
+
+<br><br>
+
+$ cat app.py
+```
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World! (from a Docker container)'
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0')```
+
+<br><br>
+
+$ cat requirements.txt
+```
+Flask==1.0.2```
+
+$ cat Dockerfile
+```
+FROM python:3.7.3-alpine
+
+ENV APP_HOME /app
+WORKDIR $APP_HOME
+
+COPY requirements.txt
+
+RUN pip install -r requirements.txt
+
+ENTRYPOINT ["python"]
+CMD ["app.py"]```
+
+<br><br>
+To create the Docker image for this application, run docker build:<br>
+```$ docker build -t hello-world-docker .```
