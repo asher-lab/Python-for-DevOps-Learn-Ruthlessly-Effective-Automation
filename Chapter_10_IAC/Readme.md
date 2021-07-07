@@ -18,4 +18,17 @@ Deleting all AWS resources provisioned with Terraform
 
 
 <h1> Pulumi </h1>
+<br>
+S3
+<br>
+SSL
+<br>
+Cloudfront CDN
+<br>
+Route53 DNS route
+<br>
+Copying Static Files to S3
+<br>
+
+<br><br>
 
