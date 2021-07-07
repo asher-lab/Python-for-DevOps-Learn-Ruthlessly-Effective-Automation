@@ -66,3 +66,5 @@ CMD ["app.py"]```
 <br><br>
 To create the Docker image for this application, run docker build:<br>
 ```$ docker build -t hello-world-docker .```
+
+*I have not yet read the full section of Docker, Kubernetes etc. I can go back here. 
